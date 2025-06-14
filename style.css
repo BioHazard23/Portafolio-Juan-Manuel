@@ -1,0 +1,401 @@
+/* ============================
+   - ESTILOS GENERALES.
+============================= */
+:root {
+  --dark: #071739;
+  --primary: #4B6382;
+  --secondary: #A4B5C4;
+  --light: #CDD5DB;
+  --accent: #A68868;
+  --highlight: #E3C39D;
+  --font-main: 'Segoe UI', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--dark);
+  color: var(--light);
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* ============================
+   - HEADER.
+============================= */
+.header {
+  position: sticky;
+  top: 0;
+  background-color: rgba(7, 23, 57, 0.95);
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  color: var(--highlight);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--light);
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--secondary);
+}
+
+/* ============================
+   - SECCIONES.
+============================= */
+.seccion {
+  padding: 4rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ============================
+   - PRESENTACION.
+============================= */
+.presentacion-contenido {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+}
+
+.texto {
+  flex: 1 1 50%;
+  text-align: center;
+}
+
+.texto h2 {
+  font-size: 2.5rem;
+  color: var(--highlight);
+  margin-bottom: 1rem;
+}
+
+.foto {
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+}
+
+.foto-perfil {
+  width: 470px;
+  height: 200%;
+  background-color: var(--secondary);
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: var(--dark);
+  object-fit: contain;
+}
+
+/* ============================
+   - PROYECTOS.
+============================= */
+.proyectos {
+  background-color: #0d2240;
+}
+
+.proyectos h2 {
+  font-size: 2.2rem;
+  color: var(--highlight);
+  margin-bottom: 1rem;
+}
+
+.subtexto {
+  margin-bottom: 2rem;
+  color: var(--secondary);
+}
+
+.grid-proyectos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.tarjeta-proyecto {
+  background-color: var(--primary);
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+
+.tarjeta-proyecto:hover {
+  transform: translateY(-5px);
+}
+
+.img-qr {
+  width: 200px;
+  height: 200px;
+  background-color: var(--secondary);
+  margin: 0 auto 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dark);
+  border-radius: 8px;
+
+}
+
+/* ============================
+   - BOTON VISITAR PAGINAS.
+============================= */
+.btn-visitar {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 0.8rem 1.5rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background 0.3s;
+}
+
+.btn-visitar:hover {
+  background-color: var(--highlight);
+}
+
+/* ============================
+   - CONTACTO.
+============================= */
+.contacto {
+  text-align: center
+}
+
+.contacto h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--highlight);
+}
+
+.info-contacto {
+  list-style: none;
+  margin: 1rem 0;
+  line-height: 2;
+}
+
+/* ============================
+   - BOTONES CONTACTO.
+============================= */
+.btn-contacto {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background 0.3s;
+}
+
+.btn-contacto:hover {
+  background-color: var(--highlight);
+}
+
+.btn-github {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background 0.3s;
+}
+
+.btn-github:hover {
+    background-color: var(--highlight);
+}
+
+.btn-instagram {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 0.8rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  transition: background 0.3s;
+}
+
+.btn-instagram:hover {
+  background-color: var(--highlight);
+}
+/* ============================
+   - FOOTER.
+============================= */
+.footer {
+  background-color: var(--dark);
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--secondary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+}
+
+/* ============================
+   - ANIMACIONES.
+============================= */
+.fade-in {
+  animation: fadeIn 1.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ============================
+   - RESPONSIVE
+============================= */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 16px;
+    padding: 0 1rem;
+    overflow-x: hidden;
+    align-content: center;
+  }
+
+  header {
+    padding: 1rem 0;
+    text-align: center;
+  }
+
+  nav .nav-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  nav .nav-links li a {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: block;
+    background-color: var(--primary);
+    color: var(--light);
+    transition: background 0.3s;
+  }
+
+  nav .nav-links li a:hover {
+    background-color: var(--accent);
+    color: var(--dark);
+  }
+
+  .presentacion-contenido {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+
+  .texto h2 {
+    font-size: 1.8rem;
+  }
+
+  .texto p {
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0.1rem;
+  }
+
+  .foto img.foto-perfil {
+    width: 300px;
+    height: auto;
+    border-radius: 40%;
+    object-fit: cover;
+    margin-top: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+
+  .foto img.foto-perfil:hover {
+    transform: scale(1.05);
+  }
+
+  .grid-proyectos {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 0 1rem;
+  }
+
+  .contacto {
+    padding: 3rem 1rem;
+    text-align: center;
+  }
+
+  .contacto h2 {
+    font-size: 1.8rem;
+  }
+
+  .contacto p,
+  .info-contactol li {
+    font-size: 1rem;
+  }
+
+  .info-contacto {
+    padding: 0;
+    margin: 1.5rem 0;
+  }
+
+  .btn-github,
+  .btn-contacto,
+  .btn-instagram {
+    width: 100%;
+    margin: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .footer {
+    padding: 1rem 0;
+    text-align: center;
+    background-color: var(--dark);
+    color: var(--secondary);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+
+  .footer p {
+    margin: 0;
+  }
+}
