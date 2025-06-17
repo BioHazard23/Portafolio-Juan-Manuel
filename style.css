@@ -108,13 +108,9 @@ body {
 .foto-perfil {
   width: 470px;
   height: 200%;
-  background-color: var(--secondary);
   border-radius: 40%;
+  border: 3px solid var(--highlight);
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: var(--dark);
   object-fit: contain;
 }
 
