@@ -224,6 +224,64 @@ body {
 }
 
 /* ============================
+   - CERTIFICACIONES.
+============================= */
+.certificaciones {
+  background-color: #0d2240;
+}
+
+.certificaciones h2 {
+  font-size: 2.2rem;
+  color: var(--highlight);
+  margin-bottom: 1rem;
+}
+
+.certificado-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.certificado-card {
+  background-color: var(--primary);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  max-width: 700px;
+  transition: transform 0.3s;
+}
+
+.certificado-card:hover {
+  transform: translateY(-5px);
+}
+
+.certificado-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.certificado-info {
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.certificado-info h3 {
+  color: var(--highlight);
+  margin-bottom: 0.5rem;
+}
+
+.certificado-fecha {
+  display: inline-block;
+  background-color: var(--accent);
+  color: var(--dark);
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* ============================
    - CONTACTO.
 ============================= */
 .contacto {
