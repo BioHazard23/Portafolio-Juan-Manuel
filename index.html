@@ -1,12 +1,13 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio | Juan Manuel</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="header">
     <nav class="container nav">
@@ -26,7 +27,13 @@
         <div class="texto">
           <h2>¡Hola! Soy Juan Manuel Arango Arana. 👋</h2>
           <p>
-            Soy un joven de 20 años de Envigado con una fuerte pasión por los sistemas, la programación y el desarrollo de videojuegos. Me destaco por ser comprometido, responsable, autodidacta y siempre en búsqueda de mejorar mis habilidades. Estoy construyendo una carrera como programador y planeo fundar mi propia empresa de software en el futuro. Mientras tanto, me sigo formando en fundamentos de programación, diseño de interfaces y metodologías de desarrollo profesional. En mi tiempo libre disfruto aprender nuevas tecnologías, jugar videojuegos, ver películas y explorar el mundo de los autos deportivos japoneses ¡Siempre estoy listo para enfrentar nuevos retos!
+            Soy un joven de 20 años de Envigado con una fuerte pasión por los sistemas, la programación y el desarrollo
+            de videojuegos. Me destaco por ser comprometido, responsable, autodidacta y siempre en búsqueda de mejorar
+            mis habilidades. Estoy construyendo una carrera como programador y planeo fundar mi propia empresa de
+            software en el futuro. Mientras tanto, me sigo formando en fundamentos de programación, diseño de interfaces
+            y metodologías de desarrollo profesional. En mi tiempo libre disfruto aprender nuevas tecnologías, jugar
+            videojuegos, ver películas y explorar el mundo de los autos deportivos japoneses ¡Siempre estoy listo para
+            enfrentar nuevos retos!
           </p>
         </div>
         <div class="foto">
@@ -39,44 +46,123 @@
     <section id="proyectos" class="seccion proyectos fade-in">
       <div class="container">
         <h2>Mis Proyectos</h2>
-        <p class="subtexto">Aquí estan mis proyectos, cada uno con su código QR para que puedas visualizarlos desde tu movil o darle al boton que dice visitar y te llevara directamente al proyecto</p>
+        <p class="subtexto">Estos son mis mejores proyectos, ordenados por complejidad técnica, arquitectura y calidad
+          de código. Haz clic en "Ver Código" para explorar cada repositorio.</p>
 
         <div class="grid-proyectos">
-          <!-- Tarjetas vacías, listas para rellenar -->
-          <div class="tarjeta-proyecto">
-            <img src="imagen/Landing_Page.png" alt="QR de la Landing Page con Registro" class="img-qr">
-            <h3>Landing Page con Registro.</h3>
-            <a href="https://biohazard23.github.io/Landing-Page-con-Registro./#inicio" class="btn-visitar" target="_blank">Visitar</a>
+          <!-- 1. Riwi Wallet Ecosystem -->
+          <div class="tarjeta-proyecto destacado">
+            <span class="ranking-badge">👑 #1</span>
+            <h3>Riwi Wallet Ecosystem</h3>
+            <p class="proyecto-desc">Sistema financiero distribuido con IA. Microservicios que integran Telegram, OpenAI
+              GPT-4 y automatización de correos bancarios.</p>
+            <div class="tech-tags">
+              <span class="tag">.NET 8</span>
+              <span class="tag">Java Spring</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">n8n</span>
+            </div>
+            <a href="https://github.com/Team-Avaricia" class="btn-visitar" target="_blank">Ver Código</a>
           </div>
-          <div class="tarjeta-proyecto">
-            <img src="imagen/Pagina_Semantica.png" alt="QR de la Pagina Semantica." class="img-qr">
-            <h3>Pagina Semantica de Etiquetas HTML.</h3>
-            <a href="https://biohazard23.github.io/Pagina-Semantica./" class="btn-visitar" target="_blank">Visitar</a>
+
+          <!-- 2. SaludLinux -->
+          <div class="tarjeta-proyecto destacado">
+            <span class="ranking-badge">🥈 #2</span>
+            <h3>SaludLinux</h3>
+            <p class="proyecto-desc">Sistema de turnos para centros de salud. Integra impresoras térmicas, escaneo QR y
+              notificaciones en tiempo real.</p>
+            <div class="tech-tags">
+              <span class="tag">ASP.NET Core 8</span>
+              <span class="tag">SignalR</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+            <a href="https://github.com/Cosmos-Riwi/SaludLinux" class="btn-visitar" target="_blank">Ver Código</a>
           </div>
-          <div class="tarjeta-proyecto">
-            <img src="imagen/Comuna_9.png" alt="QR de la Feria Cultural Comuna 9." class="img-qr">
-            <h3>Feria Cultural de la Comuna 9.</h3>
-            <a href="https://biohazard23.github.io/Feria-Cultural-Comuna-9./" class="btn-visitar" target="_blank">Visitar</a>
+
+          <!-- 3. Assessment Técnico -->
+          <div class="tarjeta-proyecto destacado">
+            <span class="ranking-badge">🥉 #3</span>
+            <h3>Assessment Técnico</h3>
+            <p class="proyecto-desc">Plataforma de cursos online. Ejemplo de Clean Architecture con capas de Dominio,
+              Aplicación, Infraestructura y API.</p>
+            <div class="tech-tags">
+              <span class="tag">.NET 8</span>
+              <span class="tag">Clean Architecture</span>
+              <span class="tag">Docker</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Assessment-Tecnico" class="btn-visitar" target="_blank">Ver
+              Código</a>
           </div>
+
+          <!-- 4. Prueba .NET -->
           <div class="tarjeta-proyecto">
-            <img src="imagen/Menu_Restaurante.png" alt="QR del Menu de Restaurante Interactivo" class="img-qr">
-            <h3>Menu de Restaurante Interactivo.</h3>
-            <a href="https://biohazard23.github.io/Menu-de-Restaurante-Interactivo./" class="btn-visitar" target="_blank">Visitar</a>
+            <span class="ranking-badge">#4</span>
+            <h3>Sistema TalentoPlus</h3>
+            <p class="proyecto-desc">Gestión de empleados con panel de administración web y API REST. Despliegue con
+              Docker Compose.</p>
+            <div class="tech-tags">
+              <span class="tag">.NET</span>
+              <span class="tag">Docker</span>
+              <span class="tag">API REST</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Prueba-.NET" class="btn-visitar" target="_blank">Ver Código</a>
           </div>
+
+          <!-- 5. Prueba C# -->
           <div class="tarjeta-proyecto">
-            <img src="imagen/MinOS.png" alt="QR del MiniOS" class="img-qr">
-            <h3>MiniOS Sistema Operativo web Ficticio.</h3>
-            <a href="https://johan192004.github.io/Min_OS/" class="btn-visitar" target="_blank">Visitar</a>
+            <span class="ranking-badge">#5</span>
+            <h3>Hospital San Vicente</h3>
+            <p class="proyecto-desc">Sistema hospitalario para gestión de pacientes, doctores y citas. Incluye
+              integración con SendGrid.</p>
+            <div class="tech-tags">
+              <span class="tag">C#</span>
+              <span class="tag">SendGrid</span>
+              <span class="tag">MVC</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Prueba-C-Sharp" class="btn-visitar" target="_blank">Ver Código</a>
           </div>
+
+          <!-- 6. Consumo de APIs -->
           <div class="tarjeta-proyecto">
-            <img src="imagen/Crudy.png" alt="QR de CRUDY" class="img-qr">
-            <h3>CRUDY Juego de Desafio Logico.</h3>
-            <a href="https://johan192004.github.io/crudy/" class="btn-visitar" target="_blank">Visitar</a>
+            <span class="ranking-badge">#6</span>
+            <h3>Consumo de APIs</h3>
+            <p class="proyecto-desc">Proyecto enfocado en integración con servidores externos. Bien documentado con
+              estructura clara.</p>
+            <div class="tech-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Fetch API</span>
+              <span class="tag">Async/Await</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Interacci-n-con-Servidores-y-Consumo-de-APIs" class="btn-visitar"
+              target="_blank">Ver Código</a>
           </div>
+
+          <!-- 7. Prueba JS -->
           <div class="tarjeta-proyecto">
-            <img src="imagen/Crudzocial.png" alt="QR de Crudzocial" class="img-qr">
-            <h3>Gestion de Usuarios Crudzocial.</h3>
-            <a href="https://johan192004.github.io/crudzocial/" class="btn-visitar" target="_blank">Visitar</a>
+            <span class="ranking-badge">#7</span>
+            <h3>Gestión de Eventos SPA</h3>
+            <p class="proyecto-desc">Single Page Application para gestión de eventos. Construida con JavaScript puro.
+            </p>
+            <div class="tech-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">SPA</span>
+              <span class="tag">HTML5</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Prueba-JS" class="btn-visitar" target="_blank">Ver Código</a>
+          </div>
+
+          <!-- 8. Login -->
+          <div class="tarjeta-proyecto">
+            <span class="ranking-badge">#8</span>
+            <h3>Sistema de Login</h3>
+            <p class="proyecto-desc">Autenticación y gestión de productos. Módulo fundamental con lógica de usuarios
+              clara.</p>
+            <div class="tech-tags">
+              <span class="tag">JavaScript</span>
+              <span class="tag">Auth</span>
+              <span class="tag">LocalStorage</span>
+            </div>
+            <a href="https://github.com/BioHazard23/Login" class="btn-visitar" target="_blank">Ver Código</a>
           </div>
         </div>
       </div>
@@ -106,4 +192,5 @@
     </div>
   </footer>
 </body>
+
 </html>
