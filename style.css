@@ -314,7 +314,22 @@ body {
    - CONTACTO.
 ============================= */
 .contacto {
-  text-align: center
+  text-align: center;
+  background-color: #0d2240;
+  padding: 5rem 0;
+  position: relative;
+}
+
+/* Línea decorativa superior */
+.contacto::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--highlight), transparent);
 }
 
 .contacto h2 {
