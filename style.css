@@ -65,6 +65,21 @@ body {
   color: var(--secondary);
 }
 
+/* Botón CV especial en navegación */
+.btn-cv {
+  background-color: var(--accent) !important;
+  color: var(--dark) !important;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-cv:hover {
+  background-color: var(--highlight) !important;
+  transform: scale(1.05);
+}
+
 /* ============================
    - SECCIONES.
 ============================= */
