@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portafolio | Juan Manuel</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
@@ -22,7 +22,7 @@
         <li><a href="#proyectos">Proyectos</a></li>
         <li><a href="#certificaciones">Certificaciones</a></li>
         <li><a href="#contacto">Contacto</a></li>
-        <li><a href="imagen/Hoja de vida Juan Manuel Arango Arana.pdf" class="btn-cv" target="_blank">📄 CV</a></li>
+        <li><a href="assets/docs/hoja-de-vida.pdf" class="btn-cv" target="_blank">📄 CV</a></li>
       </ul>
     </nav>
   </header>
@@ -44,7 +44,7 @@
           </p>
         </div>
         <div class="foto">
-          <img src="imagen/imagen1.jpg" alt="Foto Juan Ma" class="foto-perfil">
+          <img src="assets/img/imagen1.jpg" alt="Foto Juan Ma" class="foto-perfil">
         </div>
       </div>
     </section>
@@ -183,7 +183,7 @@
 
         <div class="certificado-container">
           <div class="certificado-card">
-            <img src="imagen/certificado-riwi.png" alt="Certificado RIWI - Proyecto Integrador Ruta Avanzada"
+            <img src="assets/img/certificado-riwi.png" alt="Certificado RIWI - Proyecto Integrador Ruta Avanzada"
               class="certificado-img">
             <div class="certificado-info">
               <h3>🎓 RIWI - Proyecto Integrador</h3>
@@ -220,24 +220,7 @@
     </div>
   </footer>
 
-  <script>
-    // Hamburger Menu Toggle
-    const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('nav-links');
-
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navLinks.classList.toggle('active');
-    });
-
-    // Cerrar menú al hacer click en un enlace
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navLinks.classList.remove('active');
-      });
-    });
-  </script>
+  <script src="assets/js/main.js"></script>
 </body>
 
 </html>

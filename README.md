@@ -2,9 +2,28 @@
 
 Portafolio personal que muestra mis mejores proyectos de desarrollo de software.
 
+## 🗂️ Estructura del Proyecto
+
+```
+/Portafolio-Juan-Manuel
+├── /assets
+│   ├── /css
+│   │   └── style.css       # Estilos principales
+│   ├── /js
+│   │   └── main.js         # JavaScript (menú, animaciones)
+│   ├── /img
+│   │   ├── imagen1.jpg     # Foto de perfil
+│   │   └── certificado-riwi.png
+│   └── /docs
+│       └── hoja-de-vida.pdf
+├── index.html              # Página principal
+└── README.md
+```
+
 ## 🚀 Tecnologías Utilizadas
 - HTML5
 - CSS3 (Vanilla)
+- JavaScript (Vanilla)
 - Diseño Responsivo
 
 ## 📂 Proyectos Destacados
