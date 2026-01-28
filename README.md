@@ -8,15 +8,15 @@ Portafolio personal que muestra mis mejores proyectos de desarrollo de software.
 /Portafolio-Juan-Manuel
 ├── /assets
 │   ├── /css
-│   │   └── style.css       # Estilos principales
+│   │   └── style.css       
 │   ├── /js
-│   │   └── main.js         # JavaScript (menú, animaciones)
+│   │   └── main.js         
 │   ├── /img
-│   │   ├── imagen1.jpg     # Foto de perfil
+│   │   ├── imagen1.jpg     
 │   │   └── certificado-riwi.png
 │   └── /docs
 │       └── hoja-de-vida.pdf
-├── index.html              # Página principal
+├── index.html              
 └── README.md
 ```
 
@@ -45,4 +45,4 @@ Portafolio personal que muestra mis mejores proyectos de desarrollo de software.
 - **Ubicación:** Envigado, Colombia
 
 ---
-© 2025 Juan Manuel Arango Arana
+© 2026 Juan Manuel Arango Arana
