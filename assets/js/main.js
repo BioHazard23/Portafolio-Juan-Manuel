@@ -36,3 +36,26 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     }
   });
 });
+
+// ============================
+// - BOTON VOLVER ARRIBA
+// ============================
+
+const scrollToTopBtn = document.getElementById('scrollToTop');
+
+// Mostrar/ocultar botón según la posición de scroll
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 400) {
+    scrollToTopBtn.classList.add('visible');
+  } else {
+    scrollToTopBtn.classList.remove('visible');
+  }
+});
+
+// Scroll suave hacia arriba al hacer click
+scrollToTopBtn.addEventListener('click', () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+});
